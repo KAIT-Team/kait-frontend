@@ -1,5 +1,3 @@
 import SampleService from './SampleService'
 
-export {
-  SampleService
-}
+export { SampleService }

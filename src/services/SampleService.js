@@ -8,10 +8,10 @@ export default class SampleService {
   getUser = () => {
     return new Promise((resolve, reject) => {
       Http.get('/api/users?page=2')
-        .then((res) => {
+        .then(res => {
           resolve(res)
         })
-        .catch((err) => {
+        .catch(err => {
           reject(err)
         })
     })
