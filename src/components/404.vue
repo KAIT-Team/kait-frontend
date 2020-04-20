@@ -1,7 +1,6 @@
 <template>
   <div class="error-container">
     <div class="error-mobile">
-      <div class="sidebar sm:w-40 bg-red-100">s</div>
       <div class="error-nav">{{ pathToHome() }}</div>
       <div class="error-body">
         <h1>404</h1>
