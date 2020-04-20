@@ -1,9 +1,9 @@
 #  WIKI for this project
 
 ## Development Stack
-* Vuejs-cli 3
+* Vuejs-cli 4.3.1
 * TailwindCSS
-* VScode with pretter extension
+* VScode with Prettier, ESLint extension
 * Yarn Package Manager
 
 ## Rules
