@@ -13,7 +13,7 @@ const routes = [
   {
     path: '*',
     name: 'NotFound',
-    component: () => import('../components/404.vue'),
+    component: () => import('../views/errors/404.vue'),
   },
 ]
 

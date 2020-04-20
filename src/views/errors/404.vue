@@ -55,11 +55,11 @@ export default {
 
   .error-mobile {
     height: 80%;
-    @apply w-9/12 m-auto bg-white rounded-lg flex flex-col;
+    @apply w-9/12 max-w-lg m-auto bg-white rounded-lg flex flex-col;
 
     .error-nav {
       color: #232323;
-      @apply text-left p-2 font-semibold;
+      @apply text-center p-2 font-semibold;
     }
 
     .error-body {
@@ -72,6 +72,10 @@ export default {
       @apply flex flex-col justify-center items-center;
 
       h1 {
+        @screen sm {
+          font-size: 6rem;
+        }
+
         @apply text-6xl font-bold;
       }
 
