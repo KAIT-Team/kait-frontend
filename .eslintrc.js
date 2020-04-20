@@ -13,8 +13,6 @@ module.exports = {
     'indent': ['error', 2],
     'quotes': ['error', 'single'],
     'eqeqeq': ['error', 'always'],
-    'no-empty-function': ['error', 'always'],
-    'no-eval': ['error', 'always'],
     'comma-spacing': ["error", { "before": false, "after": true }]
   },
   overrides: [
