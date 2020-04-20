@@ -10,6 +10,11 @@ const routes = [
     name: 'Home',
     component: Home,
   },
+  {
+    path: '*',
+    name: 'NotFound',
+    component: () => import('../components/404.vue'),
+  },
 ]
 
 const router = new VueRouter({
