@@ -3,8 +3,8 @@
     <div class="error-mobile">
       <div class="error-nav">{{ pathToHome() }}</div>
       <div class="error-body">
-        <h1>401</h1>
-        <p>Authentication Failed</p>
+        <h1>500</h1>
+        <p>Internal Server Error</p>
         <div>
           <button
             @click="redirectToHome()"
@@ -32,7 +32,7 @@
 
 <script>
 export default {
-  name: 'FailedAuth',
+  name: 'InternalServerError',
   methods: {
     pathToHome() {
       return `${this.$router.history.current.path}`
