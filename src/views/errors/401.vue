@@ -4,7 +4,7 @@
       <div class="error-nav">{{ pathToHome() }}</div>
       <div class="error-body">
         <h1>401</h1>
-        <p>Authentication Failed</p>
+        <p>Autentikasi gagal.</p>
         <div>
           <button
             @click="redirectToHome()"
@@ -32,7 +32,7 @@
 
 <script>
 export default {
-  name: 'FailedAuth',
+  name: 'AuthenticationFailed',
   methods: {
     pathToHome() {
       return `${this.$router.history.current.path}`

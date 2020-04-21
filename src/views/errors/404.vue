@@ -4,7 +4,7 @@
       <div class="error-nav">{{ pathToHome() }}</div>
       <div class="error-body">
         <h1>404</h1>
-        <p>Not Found</p>
+        <p>Halaman tidak ditemukan.</p>
         <div>
           <button
             @click="redirectToHome()"
