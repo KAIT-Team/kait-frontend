@@ -10,6 +10,11 @@ const routes = [
     name: 'Home',
     component: Home,
   },
+  {
+    path: '*',
+    name: 'NotFound',
+    component: () => import('../views/errors/500.vue'),
+  },
 ]
 
 const router = new VueRouter({
