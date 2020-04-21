@@ -1,4 +1,4 @@
-* init kevin branch
+* init develop branch
 * error 404
 * error 403
 * error 401
