@@ -3,8 +3,8 @@
     <div class="error-mobile">
       <div class="error-nav">{{ pathToHome() }}</div>
       <div class="error-body">
-        <h1>404</h1>
-        <p>Authentication Failed</p>
+        <h1>403</h1>
+        <p>Anda tidak memiliki izin.</p>
         <div>
           <button
             @click="redirectToHome()"
@@ -32,7 +32,7 @@
 
 <script>
 export default {
-  name: 'FailedAuth',
+  name: 'AuthorizationFailed',
   methods: {
     pathToHome() {
       return `${this.$router.history.current.path}`
