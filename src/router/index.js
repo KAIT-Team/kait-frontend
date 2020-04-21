@@ -11,8 +11,23 @@ const routes = [
     component: Home,
   },
   {
-    path: '*',
+    path: '/404/*',
     name: 'NotFound',
+    component: () => import('../views/errors/404.vue'),
+  },
+  {
+    path: '/401/*',
+    name: 'AuthenticationFailed',
+    component: () => import('../views/errors/401.vue'),
+  },
+  {
+    path: '/403/*',
+    name: 'FailedAuth',
+    component: () => import('../views/errors/403.vue'),
+  },
+  {
+    path: '/500/*',
+    name: 'InternalServerError',
     component: () => import('../views/errors/500.vue'),
   },
 ]

@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <HelloEngineer msg="Hello Engineer's KAIT" />
+    <HelloEngineer msg="Hello, welcome to KAIT" />
   </div>
 </template>
 

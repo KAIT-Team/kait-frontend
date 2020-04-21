@@ -4,7 +4,7 @@
       <div class="error-nav">{{ pathToHome() }}</div>
       <div class="error-body">
         <h1>500</h1>
-        <p>Internal Server Error</p>
+        <p>Oppss.. sepertinya ada masalah</p>
         <div>
           <button
             @click="redirectToHome()"
@@ -45,5 +45,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '@/assets/scss/errors/404.scss';
+@import '@/assets/scss/errors/500.scss';
 </style>
