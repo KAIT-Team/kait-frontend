@@ -20,3 +20,6 @@
 * use single quote for string data type
 * (optional) if too much callback, please using ``` async / await``` with `` Try {} Catch {} `` for escape from Callback Hell
 * 
+
+## Naming
+* Branch "Feature/Foo"
