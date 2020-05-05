@@ -51,7 +51,7 @@ Deadline sesudah puasa!
 ## 🧑 Author
 
 Berikut merupakan anggota dari kait-frontend
-- <a href="https://web.facebook.com/kevinabrar.khansa.14"> @KevinAbrarKhansa</a>
+- <a href="https://web.facebook.com/kevariable"> @KevinAbrarKhansa</a>
 - <a href="https://web.facebook.com/ahmadsaugi.gis">@AhmadSaugi </a>
 - <a href="https://web.facebook.com/adha.pratama.14203">@AdhaPratama </a>
 - <a href="https://web.facebook.com/fauzan.alkhairiii.79">@FauzanAlkhairi </a>
